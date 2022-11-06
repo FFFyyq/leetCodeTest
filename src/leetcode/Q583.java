@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.HashMap;
+
 public class Q583 {
     // 力扣583题，给定两个单词，每次可以删除任意一个单词的一个字符，求使得两个单词相同的最小步数——动态规划
     public static void main(String[] args) {
