@@ -34,7 +34,7 @@ public class Q77_2 {
         // 所需要元素的个数为k - path.size()
         // 在集合n中至多要从n - (k - path.size()) + 1的位置开始遍历
         for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) {
-            // 本层递归从[startIndex, n]中取一个数添加到path中
+            // 本层递归从[startIndex, n - (k - path.size()) + 1]中取一个数添加到path中
             path.push(i);
             // 下一层递归
             backtracking(n, k, i + 1);
