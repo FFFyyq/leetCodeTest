@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class Q {
     public static void main(String[] args) {
 //        Integer[] arr = new Integer[]{100,1,1,1,1,1,1,1,1,1};
-//        Solution solution = new Solution();
+//        First solution = new First();
 //        solution.sort(arr);
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i]);
